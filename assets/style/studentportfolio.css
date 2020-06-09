@@ -1,43 +1,48 @@
 /*  body */
-	
+
 body {
-	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-	/*background-color: #666;*/
-	}
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    /*background-color: #666;*/
+}
+
 
 #container {
-	width: 1000px;
-	margin-right: auto;
-	margin-left: auto;
-	margin-top: 50px;
-	margin-bottom: 50px;
+    max-width: 1000px;/* will improve the browser's handling of small windows, won't add a horizontal scrollbar to the page. */
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 p {
-	margin-bottom: 20px;
-	}
+    margin-bottom: 20px;
+}
 
 .listmargin  {
-	margin-bottom: 20px;
+    margin-bottom: 20px;
 }	
 
 .img-style-1 {
-	float: left;
-	margin-right: 10px;
+    float: left;
+    margin-right: 10px;
     margin-bottom: 10px;
-	padding: 5px;
-	border: 1px solid #CCC;
+    padding: 5px;
+    border: 1px solid #ccc;
 }	
-	
+
 /* tutorial styles */
 
-/* tabs */
+/* tabs 
+
+Add cursor: pointer cursor: pointer and button like outline on web links
+*/
 
 /* Style the tab */
 .tab {
     overflow: hidden;
     border: 1px solid #ccc;
     background-color: #f1f1f1;
+
 }
 
 /* Style the buttons inside the tab */
@@ -50,6 +55,7 @@ p {
     padding: 14px 16px;
     transition: 0.3s;
     font-size: 16px;
+    cursor: pointer; /* Add a pointer cursor on hover */
 }
 
 /* Change background color of buttons on hover */
@@ -60,8 +66,9 @@ p {
 /* Create an active/current tablink class */
 .tab button.active {
     background-color: #ccc;
+    transform: translateY(4px);/*"pressed" effect on click*/
 }
-
+ 
 /* Style the tab content */
 .tabcontent {
     display: none;
@@ -79,3 +86,149 @@ p {
     from {opacity: 0;}
     to {opacity: 1;}
 }
+
+/* Create resume section Scroll Indicator */
+.scroll-heading {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  background-color: #f1f1f1;
+}
+
+/* The progress container (grey background) */
+.progress-container {
+  max-width: 1000px;
+  height: 8px;
+  background: #ccc;
+}
+
+/* The progress bar (scroll indicator) */
+.progress-bar {
+  height: 8px;
+  background: #4caf50;
+  width: 0%;
+} 
+
+
+/* Scroll back to top button */
+#sbttBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: red; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+/* Change background color of scroll back to top button on hover */
+#sbttBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content - Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+/* Style buttons */
+.dnldbutton {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 2px 4px;
+  cursor: pointer;
+    border-radius: 6px;
+}
+
+/* Darker background on mouse-over */
+.dnldbutton:hover {
+  background-color: RoyalBlue;
+}
+
+
+
+/* Style the hyperlink */
+/* unvisited link */
+a:link {
+  color: blue;
+}
+
+/* visited link */
+a:visited {
+  color: purple;
+}
+
+/* mouse over link */
+a:hover {
+  color: blue;
+}
+
+/* selected link */
+a:active {
+  color: red;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+
+
+
+
+
