@@ -193,7 +193,7 @@ Add cursor: pointer cursor: pointer and button like outline on web links
 /* Style the hyperlink */
 /* unvisited link */
 a:link {
-  color: blue;
+  color: black;
 }
 
 /* visited link */
