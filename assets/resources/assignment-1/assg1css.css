@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #696969;
+  width: 600px;
+}
+
+/* Style the header */
+header {
+  background-color: #696969;
+  display: flex;
+  align-items: center;
+  height: 60px;
+  padding: 1px 10px;
+  color: white;
+}
+
+
+/* STYLE THE NAV BAR */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+/*Nav bar float*/
+li {
+  float: left;
+  border: 1px solid white;  
+}
+
+/* List anchor*/
+li a {
+  display: block;
+  text-align: left;
+  color: white;
+  padding: 4px 30px 4px 10px;
+  text-decoration: none;
+  background-color: #696969;
+}
+
+/* When you hover over the navigation links, the background turns to light grey */
+li a:hover {
+  background-color: #D3D3D3;
+}
+
+/* Create two columns/boxes that float next to each other */
+/* create an id to style the div container for the right box*/
+#divr {
+  float: left;
+  width: 70%;
+  background: white;
+  padding: 20px;
+  border-left: solid;
+  border-width: 1px;
+  border-color: #696969;
+}
+
+/* create an id to style the div container for the left box*/
+
+#divl {
+  float: left;
+  padding: 20px;
+  width: 30%;
+  background-color: white;
+  
+}
+
+/* Style the article list */
+.li {
+  background-color: white;
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the image */
+img {
+    float: right;
+    width: 104px;
+    height: 142px;
+}
+
+
+/* Style the footer */
+footer {
+  background-color: #696969;
+  padding: 0px 10px;
+  display: flex;
+  align-items: center; 
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+  @media (max-width: 600px) {
+  nav, article {
+  width: 100%;
+  height: auto;
+  }
+}
