@@ -1,0 +1,87 @@
+﻿<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<!-- #BeginEditable "doctitle" -->
+		<title>Web Stite By Fernando Web Design - www.fernandowebdesign.com</title>
+		<!-- #EndEditable -->
+		<link rel="stylesheet" href="css/styles.css" type="text/css" media="screen">
+		
+	</head>
+		
+	<body>
+	
+		<div id="wrapper">
+		
+			<div id="top" style="width: 95%">
+			
+				<div id="logo">
+					<img src="images/logo.jpg" width=150px height=75 />			
+				</div>
+				
+				<div id="social-media">
+					<p>Connect With Us</p>
+					<ul> 
+						<li><a href="http//:www.facebook.com"><img src="images/icons/facebook.png" alt="facebook"></a></li>
+						<li><a href="http//:www.twitter.com"><img src="images/icons/twitter.png" alt="twitter"></a> </li>
+						<li><a href="http//:www.youtube.com"><img src="images/icons/youtube.png" alt="youtube"></a></li>			
+					</ul>
+					<p>Contact Us Today For More Info - 555.555.1212</p>
+				</div>
+							
+			</div>
+				
+			<div id="topnav">
+				<ul>
+					<li><a href="index.html">WELCOME</a></li>
+					<li><a href="about.html">ABOUT</a></li>					
+					<li><a href="products.html">PRODUCTS</a></li>					
+					<li><a href="services.html">SERVICES</a></li>					
+					<li><a href="contact.html">CONTACT</a></li>
+				</ul>					
+			</div>
+			
+			<div id="banner">
+				<img src="images/carey.jpg" alt="Carey">
+			</div>
+			
+			<div id="subbanner">
+				<h3>Lorem ipsum dolor sit amet, sed ullum quaeque et, latine nusquam assueverit pro eu. Has id veri eligendi, ex alia atomorum dissentiet pro. Ut vel vivamus hymenaeos nam, integer sed ac.</h3>
+			</div>
+						
+			<div id="content">
+				<!-- #BeginEditable "Content" -->
+				<h1>Welcome To Amador Corporation</h1>
+				<p>Copiosae torquatos cum in, id eos elitr splendide, vel id etiam ridens sententiae. Quo zril salutandi in. Tibique minimum sadipscing vis ne. Idque labores laboramus eos an, te ius movet iuvaret, et sumo omnis vel. Postulant suscipiantur ex quo, pro ne erat veritus.
+				Facer perfecto percipitur has an, nec iisque virtute pericula te. Pri habemus percipit ad. Ne duo inani sensibus, ut case molestiae vix.</p>
+				<p>Copiosae torquatos cum in, id eos elitr splendide, vel id etiam ridens sententiae. Quo zril salutandi in. Tibique minimum sadipscing vis ne. Idque labores laboramus eos an, te ius movet iuvaret, et sumo omnis vel. Postulant suscipiantur ex quo, pro ne erat veritus.
+				Facer perfecto percipitur has an, nec iisque virtute pericula te. Pri habemus percipit ad. Ne duo inani sensibus, ut case molestiae vix.</p>
+
+				<img src="images/aerial-viejo-san-juan.jpg" alt="Aereal view">
+				<img src="images/old-san-juan.jpg" alt="Street">
+				<img src="images/Old-San-Statue.jpg" alt="Statue">
+				
+				<h2>Second Level Heading on Page</h2>
+				<p>Copiosae torquatos cum in, id eos elitr splendide, vel id etiam ridens sententiae. Quo zril salutandi in. Tibique minimum sadipscing vis ne. Idque labores laboramus eos an, te ius movet iuvaret, et sumo omnis vel. Postulant suscipiantur ex quo, pro ne erat veritus.
+				Facer perfecto percipitur has an, nec iisque virtute pericula te. Pri habemus percipit ad. Ne duo inani sensibus, ut case molestiae vix.</p>
+			<!-- #EndEditable -->
+			</div>
+			
+			<div id="rightside">
+				<!-- #BeginEditable "Rightside" -->
+				<h2>Sidebar Heading</h2>
+				<p>Quis urna vitae turpis leo velit sollicitudin. At integer consequat ipsum wisi, ipsum vehicula nunc porttitor elementum ac et, pede ullamcorper feugiat id vivamus torquent. Velit nulla iaculis elit eros. Cursus erat fermentum consequat justo.</p>
+				<img src="images/calendar-icon.png" alt="Calendar" >
+				<h2>Sidebar Heading</h2>
+				<p>Quis urna vitae turpis leo velit sollicitudin. At integer consequat ipsum wisi, ipsum vehicula nunc porttitor elementum ac et, pede ullamcorper feugiat id vivamus torquent. Velit nulla iaculis elit eros. Cursus erat fermentum consequat justo.</p>
+			<!-- #EndEditable -->
+			</div>
+			
+			<div id="footer">
+				<p>&copy;Copyright 2016 Sample Company Name. Sit dignissim a vestibulum, ipsum mauris viverra libero.</p>
+			</div>
+			
+		</div>
+	
+	</body>
+
+</html>
