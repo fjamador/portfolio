@@ -173,18 +173,23 @@ Add cursor: pointer cursor: pointer and button like outline on web links
 }
 
 
-/* Style download buttons */
-.dnldbutton {
+/* Style download links */
+#dnldanchor {
   background-color: DodgerBlue;
   border: none;
   color: white;
+    
+    text-decoration: none;
   padding: 2px 4px;
   cursor: pointer;
   border-radius: 6px;
 }
-
+/* Add spacing between icon and letters */
+i  {
+    margin-right: 8px;
+}
 /* Darker background on mouse-over */
-.dnldbutton:hover {
+#dnldanchor:hover {
   background-color: RoyalBlue;
 }
 
