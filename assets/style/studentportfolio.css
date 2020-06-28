@@ -2,7 +2,8 @@
 
 body {
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-    /*background-color: #666;*/
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 
@@ -29,6 +30,17 @@ p {
     padding: 5px;
     border: 1px solid #ccc;
 }	
+
+/* Thumbnail Image as Link */ 
+.img-style-2 {
+  border-radius: 4px;
+  padding: 5px;
+  width: 100px;
+}
+
+.img-style-2:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
 
 /* tutorial styles */
 
@@ -174,22 +186,22 @@ Add cursor: pointer cursor: pointer and button like outline on web links
 
 
 /* Style download links */
-#dnldanchor {
-  background-color: DodgerBlue;
-  border: none;
-  color: white;
-    
+#Resume .dnldanchor {
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    margin-right: 5px;
     text-decoration: none;
-  padding: 2px 4px;
-  cursor: pointer;
-  border-radius: 6px;
+    padding: 2px 4px;
+    cursor: pointer;
+    border-radius: 6px;
 }
 /* Add spacing between icon and letters */
 i  {
     margin-right: 8px;
 }
 /* Darker background on mouse-over */
-#dnldanchor:hover {
+.dnldanchor:hover {
   background-color: RoyalBlue;
 }
 
@@ -218,11 +230,11 @@ a:active {
 
 /* Style the Work Examples container hyperlink */
 #container.workExamples a {
-
-     background-color: #e9e9e9;
+  background-color: #e9e9e9;
   border: solid 1px;
   color: black;
   padding: 3px 4px;
+    
   text-decoration: none;
   cursor: pointer;
   border-radius: 6px;
@@ -235,6 +247,18 @@ a:active {
   top: 5px;
 }
 
+#profilelink {
+  text-align: center;
+    
+  background-color: tomato;
+  border: solid 1px;
+  color: black;
+  padding: 3px 4px;
+    
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 6px;
+}
 
 /* Click to show or hide code button */
 #panel, #flip {
@@ -250,9 +274,21 @@ a:active {
 }
 
 
- 
 
 
+footer {
+    max-width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+}
+/* Style footer w3 logo */
+footer img {
+    float:right;
+    padding: 5px;
+    border:0;
+    width: 88px;
+    height: 31px;
+}
 
 
 
